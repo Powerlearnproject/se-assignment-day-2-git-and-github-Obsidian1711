@@ -4,11 +4,12 @@
 Version control helps manage changes to code, tracking modifications and allowing collaboration.
 
 GitHub is a popular tool for managing versions of code for this reasons
-It's easy to use. 
-It's flexible.
-It has free and paid options. 
-It has collaborative features. 
-It has a community of developers. 
+- It's easy to use. 
+- It's flexible.
+- It has free and paid options. 
+- It has collaborative features. 
+- It has a community of developers.
+  
 Version control helps in maintaining project integrity by tracking changes, creating a space for collaboration, enabling thorough testing, and allowing developers to branch (create new features), without getting in the way of older features. 
 
 ## Describe the process of setting up a new repository on GitHub. What are the key steps involved, and what are some of the important decisions you need to make during this process?
@@ -48,20 +49,20 @@ Can be accessed, viewed, and forked by anyone
 - Are ideal for open-source projects, community-driven initiatives, and public projects
 
 *Private Repositories:*
-Are only accessible to authorised users (those explicitly granted permission).
- Are hidden from public view and search results.
-Control access and collaboration, allowing only trusted contributors.
- Are suitable for proprietary projects, sensitive information, or projects requiring restricted access.
+- Are only accessible to authorised users (those explicitly granted permission).
+- Are hidden from public view and search results.
+- Control access and collaboration, allowing only trusted contributors.
+- Are suitable for proprietary projects, sensitive information, or projects requiring restricted access.
 
-In summary, public repositories are open to everyone, while private repositories are restricted to authorised users only.
 *Public Repositories*
-Advantages: open-source collaboration, visibility
--Disadvantages: sensitive information exposure
+
+*Advantages:* open-source collaboration, visibility
+*Disadvantages:* sensitive information exposure
 
 *Private repositories:*
 
- Advantages: security, restricted access
--Disadvantages: limited collaboration, visibility
+*Advantages:* security, restricted access
+*Disadvantages:* limited collaboration, visibility
 
 ## Detail the steps involved in making your first commit to a GitHub repository. What are commits, and how do they help in tracking changes and managing different versions of your project?
 
@@ -85,22 +86,18 @@ Ways in which commits track changes:
 
 Branching in GitHub allows developers to work on different features or fixes simultaneously without affecting the main codebase. Here's how it works:
 
-Create a new branch: Developers create a new branch from the main branch (usually "main" or "master") to work on a specific feature or fix.
-
-Make changes and commit: Developers make changes, commit them to their branch, and push the branch to GitHub.
-
-Create a pull request: Developers create a pull request to merge their branch into the main branch.
-
-Code review: Collaborators review the code, provide feedback, and discuss changes.
-
-Approve and merge: Once approved, the pull request is merged into the main branch.
+- Create a new branch: Developers create a new branch from the main branch (usually "main" or "master") to work on a specific feature or fix.
+- Make changes and commit: Developers make changes, commit them to their branch, and push the branch to GitHub.
+- Create a pull request: Developers create a pull request to merge their branch into the main branch.
+- Code review: Collaborators review the code, provide feedback, and discuss changes.
+- Approve and merge: Once approved, the pull request is merged into the main branch.
 
 Branching facilitates code review and collaboration by:
 
-Allowing parallel development.
- Isolating changes for review.
- Enabling discussion and feedback
-Providing a clear record of changes
+- Allowing parallel development.
+- Isolating changes for review.
+- Enabling discussion and feedback
+- Providing a clear record of changes
 
 *Typical steps involved in creating and merging a pull request:*
 
@@ -119,17 +116,12 @@ Optional: Delete the branch (if desired) `git branch -d <branch-name>` This will
 
 Pull requests facilitate collaboration in several ways:
 
-Code review:  Pull requests allow team members to review each other's code, ensuring quality, consistency, and adherence to standards.
-
-Discussion and feedback: Pull requests enable team members to discuss changes, provide feedback, and ask questions, promoting open communication and collaboration.
-
-Change visibility: Pull requests make changes visible to the team, allowing everyone to see what's being worked on and what's changing.
-
-Approval and validation: Pull requests require approval from designated team members or maintainers, ensuring that changes meet the project's requirements and standards.
-
-Task assignment: Pull requests can be assigned to specific team members, clarifying responsibilities and tasks.
-
-Progress tracking: Pull requests help track progress, making it easier to manage projects and meet deadlines.
+- Code review:  Pull requests allow team members to review each other's code, ensuring quality, consistency, and adherence to standards.
+- Discussion and feedback: Pull requests enable team members to discuss changes, provide feedback, and ask questions, promoting open communication and collaboration.
+- Change visibility: Pull requests make changes visible to the team, allowing everyone to see what's being worked on and what's changing.
+- Approval and validation: Pull requests require approval from designated team members or maintainers, ensuring that changes meet the project's requirements and standards.
+- Task assignment: Pull requests can be assigned to specific team members, clarifying responsibilities and tasks.
+- Progress tracking: Pull requests help track progress, making it easier to manage projects and meet deadlines.
 
 *Steps:*
 
@@ -157,8 +149,8 @@ You can as well use GitHub web interface to merge the pull request.
 
 ## *Forking vs. Cloning:*
 
-Cloning: Creates a local copy of a repository on your machine, linked to the original repository.
-Forking: Creates a separate copy of a repository on GitHub, independent of the original repository.
+*Cloning:* Creates a local copy of a repository on your machine, linked to the original repository.
+*Forking:* Creates a separate copy of a repository on GitHub, independent of the original repository.
 
 *Key differences:*
 
